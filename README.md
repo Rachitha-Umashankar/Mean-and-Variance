@@ -63,7 +63,7 @@ for i in range (M+1):
 sf=np.sum(f)
 p=list()
 for i in range(M+1):
-    p.append(f[i]/sf) 
+    p.append(f[i]/sf)  
 mean=np.inner(x,p)
 EX2=np.inner(np.square(x),p)
 var=EX2-mean**2 
